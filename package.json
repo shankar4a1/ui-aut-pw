@@ -1,0 +1,22 @@
+{
+  "name": "ASOS TEST USING PLAYWRIGHT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npx playwright install",
+    "test-build" : "npx playwright test build.spec.js --project=chromium",
+    "test-asos-chrome": "npx playwright test asostest.spec.js --project=chromium --headed",
+    "test-asos-ff": "npx playwright test asostest.spec.js --project= firefox --headed",
+    "test-asos-webkit": "npx playwright test asostest.spec.js --project=webkit --headed",
+    "test-asos-all": "npx playwright test asostest.spec.js",
+    "show-report": "npx playwright show-report"
+   
+  },
+  "keywords": [],
+  "author": "Shankar Gajangi",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1"
+  }
+}
