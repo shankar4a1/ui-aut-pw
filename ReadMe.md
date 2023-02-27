@@ -50,7 +50,7 @@
 
      ```
 
-     4. By Default HTML report will be opened post execution. HTML report also can be opened by executing below command
+   4. By Default HTML report will be opened post execution. HTML report also can be opened by executing below command
 
      ```
      npm run show-report
