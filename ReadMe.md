@@ -23,27 +23,27 @@
    
 3. Check scripts in package.json to run  tests
    
-   Example : To run customer asos sample test on chrome
+   Example : To run  asos sample test on chrome
      
      ```
      npm run test-asos-chrome
 
      ```
 
-      To run customer asos sample test on firefox
+      To run  asos sample test on firefox
      
      ```
      npm run test-asos-ff
 
      ```
 
-      To run customer asos sample test on webkit
+      To run  asos sample test on webkit
      
      ```
      npm run test-asos-webkit
 
      ```
-      To run customer asos sample test on all browsers
+      To run  asos sample test on all browsers
      
      ```
      npm run test-asos-webkit
